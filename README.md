@@ -151,7 +151,12 @@ This lab will guide you through configuring an Amazon Elastic File System (EFS) 
 ---
 
 ## **Step 8: Generate CloudFormation Template**
-After completing the setup, generate an **AWS CloudFormation template** by exporting the configurations. This will allow automated deployment in future projects.
+1. Navigate to **AWS CloudFormation**.
+2. Click **Create Stack** → **With new resources**.
+3. Select **Template is ready** → **Upload a template file**.
+4. Upload the exported JSON/YAML configuration.
+5. Click **Next**, configure stack name, and follow the prompts.
+6. Click **Create Stack** and monitor deployment.
 
 ---
 
